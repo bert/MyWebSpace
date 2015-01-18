@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-US">
+<head profile="http://www.w3.org/2005/10/profile">
+<link rel="icon" type="image/png" href="../myicon.png">
+<title>
+Bert's gEDA-and-friends page
+</title>
+</head>
+<body>
+Hi, welcome at my gEDA-and-friends page.<br>
+<p>
+<h2>What is gEDA ?</h2>
+The gEDA project is working on producing a full GPL'd suite of Electronic Design Automation tools.<br>
+These tools are used for electrical circuit design, schematic capture, simulation, prototyping, and production.<br>
+Currently, the gEDA project offers a mature suite of free software applications for electronics design, including schematic capture, attribute management, bill of materials (BOM) generation, netlisting into over 20 netlist formats, analog and digital simulation, and printed circuit board (PCB) layout.<br>
+The gEDA project was started because of the lack of free EDA tools for UNIX.<br>
+The tools are being developed mainly on GNU/Linux machines, but considerable effort is being made to make sure that gEDA runs on other UNIX variants.<br>
+For a complete list of freely available tools please be sure to visit the <a href="http://www.geda-project.org">gEDA-project</a> homepage.
+<h2>What is PCB ?</h2>
+PCB is an interactive printed circuit board editor for the X11 window system with either a GTK interface (default) or a lesstif interface.<br>
+PCB includes a rats nest feature and Design Rule Checking.<br>
+PCB offers high end features such as:<br>
+<ul>
+  <li>an autorouter,
+  <li>a topological router,
+  <li>various trace optimizers which can tremendously reduce layout time,
+  <li>direct import gschem (gEDA) schematics without manually generating a netlist first.
+</ul>
+Plug-ins: seperately (user) compiled modules which are automagickaly loaded at the startup of pcb.<br>
+PCB also includes exporters for:
+<ul>
+  <li><b>Batch</b>: text line "batch" HID, which exists for scripting and non-GUI needs.
+  <li><b>Gerber</b>: Industry standard RS-274-X and NC drill output.
+  <li><b>BOM</b>: Bill of material and centroid data X-Y data output for use in the board fabrication and assembly process.
+  <li><b>PS</b>: PS output.
+  <li><b>PNG</b>: GIF, JPG and PNG graphic formats output.
+  <li><b>Nelma</b>: Output files for trace capacitance calculations.
+</ul>
+<p>
+Here is a modest start with generating <a href="dox.html">developer information</a> for the gEDA-suite and PCB.<br>
+The information is generated with Doxygen.<br>
+<hr>
+Another project related to gEDA is <a href="../pcb-fpw/pcb-fpw.html">pcb-gfpw</a>, a GTK based footprint generator for pcb.<br>
+The name is derived from <b>G</b>TK <b>f</b>oot<b>p</b>rint<b>w</b>izard.<br>
+There is also a Command Line Interface (CLI) version named <b>fpw</b> derived from <b>f</b>oot<b>p</b>rint<b>w</b>izard (current status: work in progress).<br>
+With this application one can create footprint files used by the pcb layout editor.<br>
+Any comments, additions, changes, improvements are welcome.
+<hr>
+Then there are some pcb plug-ins in the <a href="downloads">downloads</a> directory.<br>
+<ul>
+<li>lockelements.c : to lock/unlock all elements in a pcb layout.
+<li>findelement.c : to find an element on the current pcb you are editing.
+<li>upth2pth.c : to change unplated holes to plated holes (Status: work in progress, so YMMV :-)
+<li>ghellopcb.c : to create a GTK dialog window showing a "Hello World" message (a proof of concept attempt)
+</ul>
+<hr>
+For the git repositories of my GPL licensed projects look <a href="http://github.com/bert">here</a>.
+<hr>
+Please send all replies to <a href="mailto:bert.timmerman@xs4all.nl">Bert Timmerman</a>.<br>
+Last updated: January 18th, 2015.<br>
+All possible <a href="disclaimer.html">disclaimers</a> you can think of are applicable.
+<hr>
+</body>
+</html>
